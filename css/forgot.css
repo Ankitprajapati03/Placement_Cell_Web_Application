@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0;
+    text-decoration: none;
+    color:aliceblue;
+    list-style-type: none; 
+
+}
+body, html {
+    height: 100%;
+  }
+.nav
+{
+  background-color:darkgray;
+  padding:10px;
+  
+list-style-type: none;  
+font-weight: bold;  
+font-size: 15px; 
+}
+nav ul li a{
+    margin-left: 93%;
+    color:rgb(255, 0, 204);
+}
+.container{
+    
+    background-image: url("/image/login.jpg");
+    
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo
+{
+    text-align: center;
+  font-size:80px;
+    color:rgb(200, 28, 68);
+    display:flex;
+    justify-content: center;
+}
+
+.form
+{
+  /* margin-left:474px; */
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-display:initial;
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform:translate(-50%,-50%) ;
+/* 
+  width: 30vw;
+  height: 40vh;
+  /* background-color:darkgrey; */
+  text-align: center; 
+}
+
+
+
+
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding:2px 1px;
+  margin: 10px 50px;
+  border-bottom:  1px solid black;
+}
+
+input,select{
+  border: none;
+ 
+  outline:none;
+  background: none;
+  color:white;
+  width:120px;
+  float:left;
+  margin:10px;
+}
+#b
+{
+  color:black;
+  background-color:cornsilk;
+  border-radius: 20px;
+  height: 22px;
+}
+.input_btn
+{
+padding-left: 120px;
+}

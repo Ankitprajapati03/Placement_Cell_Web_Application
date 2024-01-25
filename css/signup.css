@@ -1,0 +1,63 @@
+
+body{
+    background: rgba(0, 0, 0, 0.54);
+}
+/* .show-btn{
+    background:red;
+   text-align: center;
+   justify-content: center;
+   margin-top: 210px;
+   margin-left: 20px;
+    font-weight: 500;
+    color: hsl(0, 62%, 45%);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0,1);
+    background-image: url("/image/studentsignup.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  } */
+
+  .show-btn {
+   
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-repeat: repeat;
+      background-image: none;
+      background-size: auto;
+    text-align:right;
+    justify-content: center;
+    margin-top: 332px;
+    font-weight: 500;
+    color: hsl(0, 23%, 6%);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0,1);
+    background-image: url("/image/studentsignup.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -348px;
+    height: 114px;
+  
+  }
+.tlable{
+    padding: 25px;
+  margin-top: 77px;
+  margin-left: 20px;
+}
+.show1-btn{
+    margin-top: 332px;
+    font-weight: 500;
+    color: hsl(0, 23%, 6%);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0,1);
+    background-image: url("/image/studentsignup.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -348px;
+    height: 114px;
+    padding: 10px 20px;
+    font-weight: 500;
+}

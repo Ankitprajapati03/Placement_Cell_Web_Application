@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0;
+    text-decoration: none;
+    color:aliceblue;
+    list-style-type: none; 
+
+}
+body, html {
+    height: 100%;
+  }
+.nav
+{
+  background-color:rgb(4, 4, 32);
+  padding:2px;
+  
+list-style-type: none;  
+font-weight: bold;  
+font-size: 15px; 
+}
+nav ul li a{
+    margin-left: 93%;
+    color:rgb(255, 0, 204);
+}
+.container{
+    
+    background-image: url("/image/div_image2.jpg");
+    
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo
+{
+    text-align: center;
+  font-size:80px;
+    color:rgb(200, 28, 68);
+    display:flex;
+    justify-content: center;
+}
+
+.form
+{
+  /* margin-left:474px; */
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-display:initial;
+  position: absolute;
+  top:60%;
+  left:79%;
+  transform:translate(-50%,-50%) ;
+/* 
+  width: 30vw;
+  height: 40vh;
+  /* background-color:darkgrey; */
+  text-align: center; 
+}
+.footer
+{
+  background-color:black;
+  width: 100%;
+  height: 5%;
+}
+#Role
+{
+  color:darkgrey;
+  font-weight: bold;
+  width: 13vw;
+  height: 4vh;
+  /* overflow: hidden; */
+  border-bottom:  1px solid black;
+
+}
+option{
+  color:black;
+}
+h3{
+/* float: left; */
+font-size: 40px;
+border-bottom: 5px solid rgb(0, 174, 255);
+margin-bottom: 20px;
+color:blue;
+padding: 2px 0;
+
+
+
+}
+/* t3{
+  color:rgb(139, 0, 86);
+  margin-left:20px;
+} */
+/* #r
+{
+  margin-left:10px;
+} */
+#Role
+{
+  width: 13vw;
+  height: 5vh;
+}
+.textbox{
+  width: 200%;
+  overflow: hidden;
+  font-size: 20px;
+  padding:2px 0;
+  margin: 10px 0;
+  border-bottom:  1px solid white;
+}
+
+input,select{
+  border: none;
+ 
+  outline:none;
+  background: none;
+  color:rgb(215, 227, 218);
+  width:100px;
+  float:left;
+  margin:10px;
+}
+#b
+{
+  color:black;
+  background-color:rgb(0, 255, 251);
+  width: 90px;
+  height: 23px;
+  border-radius: 20px;
+}
+.slide,img{
+    width: 100%;
+    height: 100%;
+
+}
